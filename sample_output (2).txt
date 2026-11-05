@@ -1,0 +1,26 @@
+=== Treatments ===
+Treatment: Deworming | Repeat every 90 days
+Treatment: Anthrax Vaccine | Repeat every 365 days
+
+=== Adding Animals ===
+Added animal A001.
+Added animal A002.
+Tag A001 already exists.
+Invalid tag: B7
+Unknown species: Dragon
+
+=== Recording Treatments ===
+  A001: Deworming given on 2026-06-01.
+  A001: Anthrax Vaccine given on 2026-06-01.
+  A002: Deworming given on 2026-09-01.
+  A002: weight 25.0kg -> 27.5kg.
+
+--- Herd Records ---
+Tag: A001 | Cattle | 320.5kg | Treatments: 2 | Last: Anthrax Vaccine on 2026-06-01
+Tag: A002 | Goat | 27.5kg | Treatments: 1 | Last: Deworming on 2026-09-01
+
+--- Animals due for Deworming on 2026-10-24 ---
+  A001 (Cattle)
+
+Total animals registered: 2
+Allowed species (tuple): ('Cattle', 'Goat', 'Sheep', 'Pig', 'Chicken')
